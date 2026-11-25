@@ -1,0 +1,61 @@
+.root { -fx-font-family: "Segoe UI", "Inter", "Helvetica Neue", sans-serif; -fx-font-size: 14px; }
+.login-bg { -fx-background-color: linear-gradient(to bottom right, #eef2ff, #f8fafc 55%, #e0e7ff); }
+.page { -fx-background-color: #f6f7f9; }
+.card { -fx-background-color: white; -fx-background-radius: 16;
+        -fx-effect: dropshadow(gaussian, rgba(15,23,42,0.08), 24, 0, 0, 6); }
+.h1 { -fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #0f172a; }
+.muted { -fx-text-fill: #64748b; }
+.error { -fx-text-fill: #ef4444; -fx-font-size: 12px; }
+.field-label { -fx-font-size: 11px; -fx-text-fill: #64748b; -fx-font-weight: bold; }
+.stat-value { -fx-font-size: 30px; -fx-font-weight: bold; -fx-text-fill: #0f172a; }
+
+.text-field, .password-field, .combo-box-base {
+    -fx-background-color: #f1f5f9; -fx-background-radius: 10; -fx-padding: 10 12;
+    -fx-border-color: transparent; -fx-border-radius: 10; }
+.combo-box-base { -fx-padding: 4 4; }
+.text-field:focused, .password-field:focused, .combo-box-base:focused {
+    -fx-background-color: white; -fx-border-color: #6366f1; -fx-border-width: 1.5; }
+.text-field:disabled { -fx-opacity: 0.6; }
+.combo-box .arrow-button { -fx-background-color: transparent; }
+.combo-box .arrow { -fx-background-color: #64748b; }
+.combo-box-popup .list-view { -fx-background-color: white; -fx-background-radius: 10; }
+.combo-box-popup .list-cell:filled:hover, .combo-box-popup .list-cell:filled:selected {
+    -fx-background-color: #e0e7ff; -fx-text-fill: #0f172a; }
+
+.btn-primary { -fx-background-color: #6366f1; -fx-text-fill: white; -fx-font-weight: bold;
+    -fx-background-radius: 10; -fx-padding: 10 22; -fx-cursor: hand; }
+.btn-primary:hover { -fx-background-color: #4f46e5; }
+.btn-ghost { -fx-background-color: transparent; -fx-text-fill: #475569; -fx-background-radius: 10;
+    -fx-padding: 10 20; -fx-cursor: hand; -fx-border-color: #e2e8f0; -fx-border-radius: 10; }
+.btn-ghost:hover { -fx-background-color: #f1f5f9; }
+.btn-danger { -fx-background-color: #fee2e2; -fx-text-fill: #dc2626; -fx-font-weight: bold;
+    -fx-background-radius: 10; -fx-padding: 10 20; -fx-cursor: hand; }
+.btn-danger:hover { -fx-background-color: #fecaca; }
+
+.sidebar { -fx-background-color: #0f172a; -fx-padding: 28 16; }
+.brand { -fx-text-fill: white; -fx-font-size: 20px; -fx-font-weight: bold; }
+.nav { -fx-background-color: transparent; -fx-text-fill: #94a3b8; -fx-alignment: CENTER_LEFT;
+    -fx-padding: 12 16; -fx-background-radius: 10; -fx-cursor: hand; }
+.nav:hover { -fx-background-color: #1e293b; -fx-text-fill: white; }
+.nav-active, .nav-active:hover { -fx-background-color: #6366f1; -fx-text-fill: white; -fx-font-weight: bold; }
+
+.table-view { -fx-background-color: transparent; -fx-padding: 0; }
+.table-view .column-header-background { -fx-background-color: transparent; }
+.table-view .column-header, .table-view .filler { -fx-background-color: transparent; -fx-size: 44;
+    -fx-border-color: transparent transparent #e2e8f0 transparent; }
+.table-view .column-header .label { -fx-text-fill: #64748b; -fx-font-size: 12px; -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT; }
+.table-row-cell { -fx-background-color: transparent; -fx-cell-size: 48;
+    -fx-border-color: transparent transparent #f1f5f9 transparent; }
+.table-row-cell:hover { -fx-background-color: #f8fafc; }
+.table-row-cell:selected { -fx-background-color: #eef2ff; }
+.table-row-cell:selected .table-cell { -fx-text-fill: #0f172a; }
+.table-cell { -fx-alignment: CENTER_LEFT; -fx-text-fill: #334155; -fx-padding: 0 8; }
+.list-view { -fx-background-color: transparent; }
+.list-cell { -fx-padding: 14 16; -fx-background-color: transparent; -fx-text-fill: #334155;
+    -fx-border-color: transparent transparent #f1f5f9 transparent; }
+.list-cell:hover { -fx-background-color: #f8fafc; }
+.scroll-bar { -fx-background-color: transparent; }
+.scroll-bar .thumb { -fx-background-color: #cbd5e1; -fx-background-radius: 8; }
+.dialog-pane { -fx-background-color: white; }
+.dialog-pane .button { -fx-background-color: #6366f1; -fx-text-fill: white; -fx-background-radius: 8; -fx-cursor: hand; }
